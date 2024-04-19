@@ -1,0 +1,16 @@
+#about {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Agar SVG tidak melebihi lebar layar */
+    height: auto; /* Mengatur tinggi secara otomatis */
+    margin-top: 10px; /* Jarak antara teks dan SVG */
+  }
+}
